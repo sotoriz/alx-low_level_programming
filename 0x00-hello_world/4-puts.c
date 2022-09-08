@@ -6,7 +6,7 @@
  *    * Description: 'A program that prints a string put'
  *     *
  *      * Return: Always 0 (Success)
- *       */
+ */
 
 int main(void)
 {
