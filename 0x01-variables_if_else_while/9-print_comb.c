@@ -19,7 +19,7 @@ int main(void)
 			putchar(i);
 			if (i != 57)
 			{
-		        	putchar(44);
+                                putchar(44);
 				putchar(32);
 			}
 			i++;
@@ -27,5 +27,5 @@ int main(void)
 
 		putchar(10);
 
-        	return (0);
+return (0);
 }
