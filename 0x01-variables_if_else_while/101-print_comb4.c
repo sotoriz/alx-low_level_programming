@@ -33,7 +33,7 @@ putchar(44);
 putchar(32);
 }
 k++;
-}													
+}
 
 j++;
 }
