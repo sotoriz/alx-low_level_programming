@@ -12,7 +12,3 @@ char *argstostr(int ac, char **av);
 char **strtow(char *str);
 
 #endif
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-
