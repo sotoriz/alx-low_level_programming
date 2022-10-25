@@ -1,9 +1,9 @@
-0x13. C - More singly linked lists
+# 0x13. C - More singly linked lists
 
-# Requirements
+## Requirements
 
 
-## General
+### General
 
 > - The only C standard library functions allowed are malloc, free and exit. Any use of functions like printf, puts, calloc, realloc etc… is forbidden
 >
@@ -12,13 +12,20 @@
 > - All your header files should be include guarded
 
 
-# Tasks
+## Tasks
 
-## mandatory
+### mandatory
 
 ### 0. Print list
 
-#### Write a function that prints all the elements of a listint_t list.
+> Write a function that prints all the elements of a listint_t list.
 
 > - Prototype: size_t print_listint(const listint_t *h);
 > - Return: the number of nodes
+
+### 1. List length
+
+> Write a function that returns the number of elements in a linked listint_t list.
+
+> - Prototype: size_t listint_len(const listint_t *h);
+
