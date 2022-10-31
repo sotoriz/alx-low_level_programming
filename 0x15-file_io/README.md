@@ -69,7 +69,7 @@ Permissions of the created file: `rw-rw-r--`. If the file already exists, do not
   - You must read `1,024` bytes at a time from the `file_from` to make less system calls. Use a buffer
   - You are allowed to use `dprintf`
 
-### Advance  
+### Advance
 
 ### 4. elf
 
