@@ -1,5 +1,10 @@
 #  0x15. C - File I/O
 
+## Resource
+
+**[File descriptors](https://en.wikipedia.org/wiki/File_descriptor)**
+**[C Programming in Linux Tutorial #024 - open() read() write() Functions](https://www.youtube.com/watch?v=dP3N8g7h8gY)**
+
 ## Requirements
 
 ### General
@@ -7,7 +12,7 @@
   - The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
   - Don’t forget to push your header file
   - All your header files should be include guarded
-  - Tip: always prefer using symbolic constants (POSIX) vs numbers when it makes sense.
+  - Tip: always prefer using symbolic constants `(POSIX)` vs numbers when it makes sense.For instance `read(STDIN_FILENO, ...` vs `read(0, ...`
 
 ## Tasks
 
@@ -20,8 +25,8 @@
   - Prototype: `ssize_t read_textfile(const char *filename, size_t letters)`;
   - where letters is the number of letters it should read and print
   - returns the actual number of letters it could read and print
-  - if the file can not be opened or read, return 0+ if `filename` is `NULL` return 0
-  - if write fails or does not `write` the expected amount of bytes, return 0
+  - if the file can not be opened or read, return `0` if `filename` is `NULL` return `0`
+  - if write fails or does not `write` the expected amount of bytes, return `0`
 
 ### 1. Under the snow
 
