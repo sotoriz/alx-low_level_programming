@@ -4,10 +4,10 @@
 
 ### General
 
-> - The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
-> - Don’t forget to push your header file
-> - All your header files should be include guarded
-> - Tip: always prefer using symbolic constants (POSIX) vs numbers when it makes sense.
+- The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
+- Don’t forget to push your header file
+- All your header files should be include guarded
+- Tip: always prefer using symbolic constants (POSIX) vs numbers when it makes sense.
 
 ## Tasks
 
@@ -49,7 +49,7 @@
 
 ### 3. cp
 
->> Write a program that copies the content of a file to another file.
+> Write a program that copies the content of a file to another file.
 
 >> - Usage: cp file_from file_to
 >> - if the number of argument is not the correct one, exit with code 97 and print Usage: cp file_from file_to, followed by a new line, on the POSIX standard error
