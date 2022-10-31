@@ -4,7 +4,7 @@
 
 ### General
 
-  - The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
+  - The prototypes of all your functions and the prototype of the function `_putchar` should be included in your header file called `main.h`
   - Don’t forget to push your header file
   - All your header files should be include guarded
   - Tip: always prefer using symbolic constants (POSIX) vs numbers when it makes sense.
@@ -15,13 +15,13 @@
 
 ### 0. Tread lightly, she is near
 
->  **Write a function that reads a text file and prints it to the POSIX standard output**.
+>  Write a function that reads a text file and prints it to the `POSIX` standard output.
 
-  - Prototype: ssize_t read_textfile(const char *filename, size_t letters);
+  - Prototype: `ssize_t read_textfile(const char *filename, size_t letters)`;
   - where letters is the number of letters it should read and print
   - returns the actual number of letters it could read and print
-  - if the file can not be opened or read, return 0+ if filename is NULL return 0
-  - if write fails or does not write the expected amount of bytes, return 0
+  - if the file can not be opened or read, return 0+ if `filename` is `NULL` return 0
+  - if write fails or does not `write` the expected amount of bytes, return 0
 
 ### 1. Under the snow
 
